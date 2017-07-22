@@ -1,0 +1,19 @@
+div {
+	background: #cccccc;
+	width: 98%;
+	height: 315px;
+	border-radius: 50px;
+	box-shadow: 15px 15px 0px black;
+	padding: 10px;
+	border: 2px solid blue;
+}
+
+img {
+	width: 300px;
+	height: auto;
+	margin:auto;
+	display: block;
+	border-radius: 50%;
+	box-shadow: 10px 10px 0px black;
+	border: 150px yellow;
+}

@@ -1,0 +1,48 @@
+/*	selector universal
+* {
+	margin: 0;
+	padding: 0;
+	color: red;
+}*/
+
+h1,h2,h3,h4,h5,h6 {
+	color: red;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 40px;
+	color: rgba(53,149,40,.5);
+}
+
+p a {
+	font-size: 25px;
+	color: violet;
+}
+
+p .green {
+	color: green;
+}
+
+a[href="http://www.google.com"] {
+	color: 1DC7FF;
+	font-size: 15px;
+}
+
+body {
+	font-size: 16px;
+}
+
+div p {
+	font-size: 1.2em;
+}
+
+div {
+	font-size: 20px;
+	background: #110489;
+	color: white;
+	width: 50%;
+}

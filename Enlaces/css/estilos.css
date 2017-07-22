@@ -1,0 +1,40 @@
+a {
+	color: green;
+	text-decoration: none;
+	margin: 10px 20px 10px 0px;
+	background: #A8FFB7;
+	padding: 20px 10px 15px 10px;
+	display: inline-block;
+	float:left;
+	box-shadow: 0px 5px 0px #91F91A;
+}
+
+a:link {
+	color: #F31AFA;
+}
+
+a:hover {
+	text-decoration: underline;
+	background: #1AFA83;
+	padding: 20px 10px 15px 10px;
+	color: red;
+	box-shadow: 0px 2px 0px #91F91A;
+}
+
+a:active {
+	background: #07CCFD;
+	box-shadow: 0px 0px 0px #91F91A;
+	position: relative;
+	top: 5px;
+}
+
+a:visited {
+	color: violet;
+}
+
+div {
+	width: 100%;
+	margin: auto;
+	
+	background: #cccccc;
+}

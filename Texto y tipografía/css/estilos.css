@@ -1,0 +1,35 @@
+p {
+	color: #0A0AFF;
+	font-family: Verdana, Tahoma, Helvetica, Sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	text-decoration: none;
+	text-shadow: 5px 5px 2px pink;
+}
+
+h1 {
+	font-weight: normal;
+	font-family: Tahoma;
+	color: #7732FF;
+	text-align: center;
+	background: grey;
+	text-transform: uppercase;
+}
+
+.uno {
+	text-align: justify;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+
+.dos {
+	text-align: right;
+	text-decoration: overline;
+	text-transform: uppercase;
+}
+
+.tres {
+	text-align: left;
+	text-decoration: line-through;
+	text-transform: lowercase;
+}

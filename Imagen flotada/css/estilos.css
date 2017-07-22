@@ -1,0 +1,20 @@
+img {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+	background: pink;
+}
+
+div {
+	background: brown;
+	width: 120px;
+	height: 100px;
+	font-size: 50px;
+	color: yellow;
+	float: left;
+}

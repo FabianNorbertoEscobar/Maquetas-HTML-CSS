@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head lang="en">
+
+		<meta charset="UTF-8">
+		<title>Formulario</title>
+
+	</head>
+
+	<body>
+
+		<!-- parte de una página web con la que el usuario puede interacturar escribiendo texto, realizando acciones, etc-->
+		<!-- luego nosotros podremos interactuar con esos datos, procesarlos y darle una respuesta -->
+
+		<!-- form action="datos.php method="GET" -->
+
+		<form> 
+			
+			<h1>Formulario</h1>
+
+			<!-- la etiqueta label sirve para asignar este texto al input señalado por el atributo for, identificado por su id -->
+			<label for="nombre">Ingrese su nombre:</label>
+			<input type="text" placeholder="Escribe tu nombre" maxlength="20" name="nombre" id="nombre">
+			<!-- El atributo value rellena el textbox con un mensaje, pero cuando el usuario quiere escribir, debe borrarlo a mano.
+			En cambio, el atributo placeholder, hace que cuando el usuario comienza a escribir el texto desaparezca.
+			El atributo maxlenght define la máxima cantidad de caracteres que el usuario puede escribir.
+			El atributp name se usa cuando se va a desarrollar, y el id es lo que permite identificarlo -->
+
+			<br /><br />
+			<label for="pass">Escribe tu contrase&ntilde;a:</label>
+			<input type="password" placeholder="Escribe tu contraseña" id="pass">
+
+			<br /><br />
+			<label for="email">Escribe tu e-mail:</label>
+			<input type="email" placeholder="Escribe tu e-mail:" id="email">
+			<!-- esta etiqueta es nueva, por eso no funciona en todos los navegadores. En mozilla y chrome funciona. Explorer y opera, no lo reconoce bien. Este tag valida si lo ingresado corresponde a un e-mail. Si no es válido, su contorno se marca en rojo. -->
+
+			<br /><br />
+			Selecciona tu sexo:
+			<input type="checkbox">Hombre
+			<input type="checkbox">Mujer
+
+			<br /><br />
+			Selecciona tu sexo:
+			<input type="radio">Hombre
+			<input type="radio">Mujer
+
+			<br /><br />
+			<input type="button" value="Enviar">
+
+			<input type="submit" value="Enviar consulta">
+
+			<!-- select es una lista desplegable, o sea, un drop down list -->
+			<br /><br />
+			Selecciona tu país:
+			<select>
+				<option value="Escoja su pa&iacute;s">Escoja su pa&iacute;s</option>
+				<option value="M&eacute;xico">M&eacute;xico</option>
+				<option value="Colombia">Colombia</option>
+				<option value="Uruguay">Uruguay</option>
+				<option value="Brasil">Brasil</option>
+				<option value="Argentina">Argentina</option>
+			</select>
+
+			<br /><br />
+			Elija su color favorito
+			<input type="color">
+
+			<br /><br />
+			Escoja nivel de felicidad en este momento:
+			<br />Poca	
+			<input type="range">Mucha
+
+			<br /><br />
+			Indique su fecha de nacimiento:
+			<input type="date">
+
+			<br /><br />
+			Indique la hora actual:
+			<input type="time">
+
+			<br /><br />
+			Indique fecha y hora:
+			<input type="datetime" placeholder="Ingrese fecha y hora">
+
+			<br /><br />
+			Indique fecha y hora:
+			<input type="datetime-local">
+
+			<br /><br />
+			Seleccione su imagen de usuario:
+			<input type="file" accept="image/*">
+
+			<br /><br />
+			Mes actual:
+			<input type="month">
+
+			<br /><br />
+			Sueldo:
+			<input type="number" placeholder="Ingrese sueldo">
+
+			<br /><br />
+			Resetear todos los campos del formulario:
+			<input type="reset">
+
+			<br /><br />
+			Realice una b&uacute;squeda:
+			<input type="search" placeholder="Ingrese el conterido a buscar">
+
+			<br /><br />
+			Tel&eacute;fono celular:
+			<input type="tel" placeholder="celular">
+
+			<br /><br />
+			Escriba la URL de su web site personal:
+			<input type="url" placeholder="URL de su web site">
+
+			<br /><br />
+			Semana actual:
+			<input type="week">
+
+		</form>
+
+	</body>
+
+</html>

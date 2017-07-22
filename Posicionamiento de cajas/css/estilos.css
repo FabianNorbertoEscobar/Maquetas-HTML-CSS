@@ -1,0 +1,24 @@
+div {
+	background: #0051FF;
+	width: 100px;
+	height: 100px;
+	color: #FFD500;
+	font-size: 30px;
+}
+
+/* 5 tipos de posicionamiento: static, relative, absolute, fixed, */
+
+.caja {
+	position: fixed;
+	top: ;
+	bottom: ;
+	right: ;
+	left: 200px;
+}
+
+/*.caja_padre {
+	width: 500px;
+	height: 500px;
+	background: black;
+	position: relative;
+}*/
